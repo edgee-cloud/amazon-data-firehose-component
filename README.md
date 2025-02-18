@@ -35,7 +35,7 @@ Please note that your Firehose Delivery Stream needs "Direct PUT" as source.
 ## Event Handling
 
 ### Event Mapping
-The component maps Edgee events to Kinesis records as follows:
+The component maps Edgee events to Firehose records as follows:
 
 | Edgee Event | Firehose record | Description |
 |-------------|----------------|-------------|
