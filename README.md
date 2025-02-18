@@ -11,6 +11,12 @@
 
 <h1 align="center">Amazon Data Firehose component for Edgee</h1>
 
+
+[![Coverage Status](https://coveralls.io/repos/github/edgee-cloud/amazon-data-firehose-component/badge.svg)](https://coveralls.io/github/edgee-cloud/amazon-data-firehose-component)
+[![GitHub issues](https://img.shields.io/github/issues/edgee-cloud/amazon-data-firehose-component.svg)](https://github.com/edgee-cloud/amazon-data-firehose-component/issues)
+[![Edgee Component Registry](https://img.shields.io/badge/Edgee_Component_Registry-Public-green.svg)](https://www.edgee.cloud/edgee/amazon-data-firehose-component)
+
+
 This component enables seamless integration between [Edgee](https://www.edgee.cloud) and [Amazon Data Firehose](https://aws.amazon.com/firehose/), allowing you to collect and forward analytics events to your delivery streams.
 
 
