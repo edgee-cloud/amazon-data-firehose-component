@@ -14,7 +14,7 @@ use std::time::SystemTime;
 #[derive(Serialize)]
 #[serde(rename_all(serialize = "PascalCase"))]
 pub struct FirehoseRequestRecord {
-    pub data: String
+    pub data: String,
 }
 
 #[derive(Serialize)]
@@ -87,7 +87,7 @@ impl Settings {
     pub fn generate_body(&self, data: String) -> String {
         let delivery_stream_name = self.firehose_stream.clone();
         let record = FirehoseRequestRecord {
-            data: BASE64_STANDARD.encode(data)
+            data: BASE64_STANDARD.encode(data),
         };
 
         // create body obj and serialize to JSON string
