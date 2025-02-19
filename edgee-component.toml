@@ -2,10 +2,10 @@ manifest-version = 1
 
 [component]
 name = "Amazon Data Firehose"
-version = "0.0.1"
+version = "0.1.0"
 
 category = "data-collection"
-subcategory = "analytics"
+subcategory = "warehouse"
 description = "Amazon Data Firehose Edgee component"
 documentation = "https://github.com/edgee-cloud/amazon-data-firehose-component"
 repository = "https://github.com/edgee-cloud/amazon-data-firehose-component"
