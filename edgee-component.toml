@@ -1,0 +1,42 @@
+manifest-version = 1
+
+[component]
+name = "Amazon Data Firehose"
+version = "0.1.0"
+
+category = "data-collection"
+subcategory = "warehouse"
+description = "Amazon Data Firehose Edgee component"
+documentation = "https://github.com/edgee-cloud/amazon-data-firehose-component"
+repository = "https://github.com/edgee-cloud/amazon-data-firehose-component"
+wit-world-version = "0.4.0"
+
+[component.build]
+command = "cargo build --target wasm32-wasip2 --release --target-dir ./target && mv ./target/wasm32-wasip2/release/amazon_data_firehose_component.wasm ./firehose.wasm"
+output_path = "firehose.wasm"
+
+
+[component.settings.aws_access_key]
+title = "Your AWS Access Key"
+type = "string"
+required = true
+
+[component.settings.aws_secret_key]
+title = "Your AWS Secret Access Key"
+type = "string"
+required = true
+
+[component.settings.aws_session_token]
+title = "Your AWS Session Token (optional)"
+type = "string"
+description = "Useful for tests, not recommended in production because it's short-lived"
+
+[component.settings.aws_region]
+title = "Your AWS Region"
+type = "string"
+required = true
+
+[component.settings.firehose_stream]
+title = "Your Firehose Stream name"
+type = "string"
+required = true
