@@ -6,7 +6,6 @@ version = "1.0.0"
 
 category = "data-collection"
 subcategory = "warehouse"
-description = "Amazon Data Firehose Edgee component"
 documentation = "https://www.edgee.cloud/docs/components/data-collection/amazon-data-firehose"
 repository = "https://github.com/edgee-cloud/amazon-data-firehose-component"
 icon-path = "firehose.png"
