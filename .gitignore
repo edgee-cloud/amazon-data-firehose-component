@@ -2,3 +2,4 @@ debug/
 target/
 firehose.wasm
 lcov.info
+.edgee
