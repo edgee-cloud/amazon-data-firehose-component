@@ -12,11 +12,46 @@ icon-path = "firehose.png"
 wit-version = "1.0.0"
 language = "Rust"
 description = '''
-This component enables seamless integration between [Edgee](https://www.edgee.cloud)
-and [Amazon Data Firehose](https://aws.amazon.com/firehose/),
-allowing you to collect and forward analytics events to your delivery streams.
+# Amazon Data Firehose Component
 
-All Firehose records contain a full JSON dump of the incoming event.
+[https://www.edgee.cloud/edgee/amazon-data-firehose](https://www.edgee.cloud/edgee/amazon-data-firehose)
+
+## Overview
+
+The **Amazon Data Firehose** component by Edgee enables streamlined, server-side streaming of analytics events directly to Amazon’s fully managed Kinesis Data Firehose service.
+This integration boosts data delivery reliability by sending your data from the edge, ensuring near real-time ingestion into destinations such as S3, Redshift, OpenSearch, and more.
+
+---
+
+## Key Features & Benefits
+
+### Features
+
+- **Edge-based integration**: Capture and forward events directly from the edge for minimal latency.
+- **Supports multiple AWS targets**: Send data to Amazon S3, Redshift, OpenSearch Service, and more.
+- **Custom configuration**: Set AWS credentials, region, and Firehose stream name.
+- **Seamless JSON payload delivery**: Compatible with standard Firehose ingestion patterns.
+
+### Benefits
+
+- **Scalable streaming**: Harness Firehose’s ability to auto-scale with varying data volumes.
+- **Reduced client-side complexity**: No SDKs to embed—manage everything at the edge.
+- **Reliable and resilient delivery**: Leverage AWS infrastructure for high availability and managed buffering.
+- **Broad data integration**: Easily route analytics into your preferred data lakes or BI platforms.
+
+---
+
+## Use Cases
+
+- Ensure real-time streaming of user interactions (e.g., `track`, `page`) to AWS analytics services.
+- Build scalable event pipelines for analytics, monitoring, or BI dashboards.
+- Centralize data collection in platforms like S3 for deeper ETL or warehousing.
+- Load live event streams into Amazon Redshift for near real-time querying.
+- Forward logs or custom metrics to OpenSearch for dashboards and alerting.
+
+---
+
+Additional resources: [Amazon Data Firehose Documentation](https://docs.aws.amazon.com/firehose), [Amazon Data Firehose Features](https://aws.amazon.com/kinesis/data-firehose/features/)
 '''
 
 [component.build]
