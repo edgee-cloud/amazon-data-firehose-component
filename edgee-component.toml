@@ -12,10 +12,6 @@ icon-path = "firehose.png"
 wit-version = "1.0.0"
 language = "Rust"
 description = '''
-# Amazon Data Firehose Component
-
-[https://www.edgee.cloud/edgee/amazon-data-firehose](https://www.edgee.cloud/edgee/amazon-data-firehose)
-
 ## Overview
 
 The **Amazon Data Firehose** component by Edgee enables streamlined, server-side streaming of analytics events directly to Amazon’s fully managed Kinesis Data Firehose service.
